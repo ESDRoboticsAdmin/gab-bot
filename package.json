@@ -1,0 +1,15 @@
+{
+  "name": "gab-bot",
+  "version": "1.0.0",
+  "description": "a discord bot for statistical logging",
+  "main": "logging.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "duke",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.1.0",
+    "nedb": "^1.8.0"
+  }
+}
