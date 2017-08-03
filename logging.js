@@ -11,6 +11,9 @@ client.on('ready', () => {
 
 // on <Message> event
 client.on('message', message => {
+  
+  if(message.channel.type==="dm") return;
+  
   if (message.guild.id === config.guild) {
     console.log(`Received from ${message.author.username}`)
     var doc = {
